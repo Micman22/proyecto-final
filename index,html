@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Proyecto Final</title>
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+    <a href="#">Sobre mí</a>
+  </nav>
+
+  <!-- Sección: Comidas favoritas -->
+  <section>
+    <h2>🍔 Comidas Favoritas</h2>
+    <ul>
+      <li>Pizza</li>
+      <li>Sushi</li>
+      <li>Ensalada</li>
+      <li>Tacos</li>
+    </ul>
+  </section>
+
+  <!-- Sección: Logros -->
+  <section>
+    <h2>🏆 Logros</h2>
+    <p>HTML5</p>
+    <progress value="90" max="100"></progress><br>
+    <p>CSS</p>
+    <progress value="75" max="100"></progress><br>
+    <p>JavaScript</p>
+    <progress value="60" max="100"></progress>
+  </section>
+
+  <!-- Sección: Más sobre mí -->
+  <section>
+    <h2>🙋 Más sobre mí</h2>
+    <details>
+      <summary>Haz clic para saber más</summary>
+      <p>Soy un apasionado del diseño web y me encanta crear interfaces limpias y funcionales.</p>
+    </details>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Gracias por visitar mi sitio web.</p>
+    <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo del curso">
+    <p><a href="http://intro-webdesign.com" target="_blank">Visita Intro Web Design</a></p>
+  </footer>
+</body>
+</html>
